@@ -8,7 +8,6 @@ export const fetch_start_agent = async (
       "Content-Type": "application/json",
       "Authorization": `Bearer ${serverAuth}`
     },
-    body: JSON.stringify({}),
   });
 
   const data = await req.json();
