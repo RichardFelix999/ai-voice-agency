@@ -48,7 +48,7 @@ const Splash: React.FC<SplashProps> = ({ handleReady }) => {
           </Button>
           <Button variant="light" asChild>
             <a
-              href="https://github.com/CerebriumAI/examples/tree/master/18-realtime-voice-agent"
+              href="https://github.com/RichardFelix999/ai-voice-agency"
               className="text-indigo-600"
             >
               <Book className="size-6" />
