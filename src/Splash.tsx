@@ -39,7 +39,7 @@ const Splash: React.FC<SplashProps> = ({ handleReady }) => {
         <footer className="flex flex-col lg:flex-row lg:gap-2">
           <Button variant="light" asChild>
             <a
-              href="https://github.com/RichardFelix999/"
+              href="https://github.com/Richard/Felix999/"
               className="text-indigo-600"
             >
               <Info className="size-6" />
