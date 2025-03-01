@@ -35,7 +35,7 @@ const status_text = {
 
 // Server URL (ensure trailing slash)
 let serverUrl = import.meta.env.VITE_SERVER_URL;
-let serverAuth = import.meta.env.VITE_SERVER_AUTH;
+const serverAuth = import.meta.env.VITE_SERVER_AUTH;
 if (serverUrl && !serverUrl.endsWith("/")) serverUrl += "/";
 
 // Auto room creation (requires server URL)
@@ -194,7 +194,7 @@ export default function App() {
         </CardFooter>
         {capacityError && (
           <div className="text-red-500 mt-2 p-4">
-            {capacityError}<br/> Alternatively you can create your own. Click <strong><u><a href="https://docs.cerebrium.ai/v4/examples/realtime-voice-agents">here</a></u></strong> to see how
+            {capacityError}<br/> This Error was reported successfully. The developer will fix this soon. 
           </div>
         )}
       </Card>
