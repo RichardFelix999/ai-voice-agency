@@ -1,5 +1,5 @@
 import React from "react";
-import { Book, Info, Rocket } from "lucide-react";
+import { Book, Info } from "lucide-react";
 
 import { Button } from "./components/ui/button";
 
@@ -39,7 +39,7 @@ const Splash: React.FC<SplashProps> = ({ handleReady }) => {
         <footer className="flex flex-col lg:flex-row lg:gap-2">
           <Button variant="light" asChild>
             <a
-              href="https://www.daily.co/blog/the-worlds-fastest-voice-bot/"
+              href="https://github.com/RichardFelix999/"
               className="text-indigo-600"
             >
               <Info className="size-6" />
@@ -55,7 +55,7 @@ const Splash: React.FC<SplashProps> = ({ handleReady }) => {
               View source code
             </a>
           </Button>
-          <Button variant="light" asChild>
+          {/* <Button variant="light" asChild>
             <a
               href="https://docs.cerebrium.ai/v4/examples/realtime-voice-agents"
               className="text-indigo-600"
@@ -63,7 +63,7 @@ const Splash: React.FC<SplashProps> = ({ handleReady }) => {
               <Rocket className="size-6" />
               Follow Me
             </a>
-          </Button>
+          </Button> */}
         </footer>
       </div>
     </main>
