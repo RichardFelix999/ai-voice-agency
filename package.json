@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@babel/runtime": "^7.26.9",
     "@daily-co/daily-js": "^0.64.0",
     "@daily-co/daily-react": "^0.19.0",
     "@radix-ui/react-switch": "^1.0.3",

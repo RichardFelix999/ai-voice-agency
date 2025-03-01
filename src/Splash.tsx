@@ -1,12 +1,9 @@
 import React from "react";
 import { Book, Info, Rocket } from "lucide-react";
 
-import CerebriumLogo from "@/assets/logos/cerebrium.png";
-import DailyLogo from "@/assets/logos/daily.png";
-import DeepgramLogo from "@/assets/logos/deepgram.png";
-import L3Logo from "@/assets/logos/llama3.png";
-
 import { Button } from "./components/ui/button";
+
+
 
 type SplashProps = {
   handleReady: () => void;
@@ -20,27 +17,6 @@ const Splash: React.FC<SplashProps> = ({ handleReady }) => {
           Welcome To AI Voice Agency By Ricky!
         </h1>
 
-        <div className="flex flex-col gap-2">
-          {/* <span className="text-sm text-primary-400">Brought to you by:</span> */}
-          {/* <div className="flex flex-row gap-6 bg-white rounded-full py-4 px-8 items-center">
-            <a href="https://www.daily.co/" target="_blank">
-              <img src={DailyLogo} alt="Daily.co" className="max-h-[22px]" />
-            </a>
-            <a href="https://www.cerebrium.ai/" target="_blank">
-              <img
-                src={CerebriumLogo}
-                alt="Daily.co"
-                className="max-h-[22px]"
-              />
-            </a>
-            <a href="https://deepgram.com/" target="_blank">
-              <img src={DeepgramLogo} alt="Daily.co" className="max-h-[22px]" />
-            </a>
-            <a href="https://llama.meta.com/llama3/" target="_blank">
-              <img src={L3Logo} alt="Daily.co" className="max-h-[22px]" />
-            </a>
-          </div> */}
-        </div>
 
         <div className="max-w-full lg:max-w-2xl flex flex-col gap-6">
           
@@ -53,10 +29,6 @@ const Splash: React.FC<SplashProps> = ({ handleReady }) => {
             <br></br>
             He says "Speed is important for voice AI interfaces. Humans expect fast responses in normal conversation. In this project it showcases low-latency LLM interaction, aiming to achieve 500ms voice-to-voice response times."
           </p>
-          {/* <p className="lg:text-lg text-primary-600">
-           This bot was built using Pipecat, an open source framework for voice and multimodal conversational AI.
-            And used Hugging Face's Meta Llama 3 model. 
-          </p> */}
         </div>
 
         {/* TODO: Uncomment this line to implement yourself */}
